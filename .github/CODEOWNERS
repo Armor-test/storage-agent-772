@@ -1,0 +1,37 @@
+# CODEOWNERS file for storage-agent-772
+# Global owners - will be requested for all PRs
+* @Armor-test/team-governance @Armor-test/grp-search @Armor-test/grp-api
+
+# Directory ownership
+/config/ @Armor-test/team-reporting @Armor-test/dept-notifications @Armor-test/squad-qa
+/core/ @Armor-test/dept-security @Armor-test/team-security
+/helpers/ @Armor-test/squad-apps @Armor-test/team-logging
+/scripts/ @Armor-test/squad-database @Armor-test/squad-ux
+/deploy/ @Armor-test/dept-billing @Armor-test/dept-data @Armor-test/squad-frontend
+/web/ @Armor-test/squad-qa @Armor-test/grp-search
+/services/ @Armor-test/squad-product @Armor-test/squad-api @Armor-test/grp-api
+/dist/ @Armor-test/squad-cloud @Armor-test/squad-apps
+/extensions/ @Armor-test/dept-release @Armor-test/dept-notifications @Armor-test/squad-reporting
+/examples/ @Armor-test/dept-notifications @Armor-test/squad-reporting
+/tools/ @Armor-test/grp-storage @Armor-test/grp-reporting @Armor-test/squad-performance
+
+# File type ownership
+*.swift @Armor-test/dept-ui @Armor-test/squad-product
+*.java @Armor-test/squad-apps @Armor-test/grp-search @Armor-test/squad-search
+*.proto @Armor-test/dept-api @Armor-test/squad-cache
+*.tf @Armor-test/grp-api @Armor-test/squad-cloud
+*.rs @Armor-test/squad-search @Armor-test/squad-apps @Armor-test/squad-payments
+*.sh @Armor-test/squad-api @Armor-test/dept-test
+*.sql @Armor-test/dept-billing @Armor-test/squad-mobile
+*.ts @Armor-test/unit-governance @Armor-test/squad-product @Armor-test/squad-cache
+*.scss @Armor-test/team-frontend @Armor-test/dept-logging
+*.toml @Armor-test/unit-test @Armor-test/squad-ml @Armor-test/squad-performance
+*.css @Armor-test/unit-devops @Armor-test/unit-governance @Armor-test/grp-ui
+*.cpp @Armor-test/squad-search @Armor-test/dept-test @Armor-test/squad-apps
+*.go @Armor-test/dept-test @Armor-test/team-security
+
+# Security and special files
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+Dockerfile @Armor-test/devops @Armor-test/infra
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+/src/**/security/ @Armor-test/security @Armor-test/compliance
